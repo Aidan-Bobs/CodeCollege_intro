@@ -1,0 +1,24 @@
+Here are some challenges to build on and improve the
+Hangman game you created in this chapter.
+#1: More Words
+Add your own words to the words array. Remember to enter
+words in all lowercase.
+#2: Capital Letters
+If a player guesses a capital letter, it won’t match a lowercase
+letter in the secret word. To address this potential problem,
+convert the player’s guess to lowercase. (Hint: You can use
+the toLowerCase method to convert a string to lowercase.)
+#3: Limiting Guesses
+Our Hangman game gives a player unlimited guesses. Add
+a variable to track the number of guesses and end the game
+if the player runs out of guesses. (Hint: Check this variable in
+the same while loop that checks whether remainingLetters > 0.
+As we did in Chapter 2, you can use && to check whether two
+Boolean conditions are true.)
+#4: Fixing a Bug
+There’s a bug in the game: if you keep guessing the same
+correct letter, remainingLetters will keep decrementing. Can
+you fix it? (Hint: You could add another condition to check
+whether a value in answerArray is still an underscore. If it’s
+not an underscore, then that letter must have been guessed
+already.)
